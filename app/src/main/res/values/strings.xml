@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Computer Languages</string>
+    <string name="Hii">hii</string>
+    <string name="Title">Title</string>
+    <string name="Content">Content</string>
+    <string name="UserName">UserName</string>
+    <string name="Email">Email</string>
+    <string name="ConfirmPassword">Confirm_Password</string>
+    <string name="Password">Password</string>
+    <string name="already">If you Already Register then</string>
+    <string name="log">Click Here</string>
+    <string name="newuser">"New User Then Create Account "</string>
+    <string-array name="languages">
+
+        <item>Interpreted Programming Languages</item>
+        <item>Functional Programming Languages</item>
+        <item>Compiled Programming Languages</item>
+        <item>Procedural Programming Languages</item>
+        <item>Scripting Programming Languages</item>
+        <item>Markup Programming Languages</item>
+        <item>Logic-Based Programming Languages</item>
+        <item>Concurrent Programming Languages</item>
+        <item>Object-Oriented Programming Languages</item>
+
+    </string-array>
+</resources>

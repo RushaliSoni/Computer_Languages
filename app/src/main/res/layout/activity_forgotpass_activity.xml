@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forgotpass_activity">
+    <ImageView
+        android:id="@+id/forLogo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/computer3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp"/>
+    <EditText
+        android:id="@+id/forEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:textColorHint="@android:color/black"
+        android:layout_below="@id/forLogo"
+        android:hint="Enter Register Email"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_margin="20dp"
+        android:textSize="25sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recover Password"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_margin="30sp"
+        android:layout_below="@id/forEmail"
+        android:id="@+id/btnlogin"
+        android:onClick="RecoverPassword"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonshape"/>
+
+</RelativeLayout>
